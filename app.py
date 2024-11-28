@@ -12,7 +12,7 @@ load_dotenv()
 st.set_page_config(
     page_title="Chat with Gemini-Pro!",
     page_icon=":brain:",  # Favicon emoji
-    layout="wide",  # Page layout option
+    layout="centered",  # Page layout option
 )
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
